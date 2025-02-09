@@ -32,7 +32,7 @@ Check out the live app here!
 
 Ensure you have Python 3.7+ installed. Then install the required packages:
 
-pip install -r requirements.txt
+```bash pip install -r requirements.txt```
 
 # Running Locally
 

@@ -32,18 +32,17 @@ Check out the live app here!
 
 Ensure you have Python 3.7+ installed. Then install the required packages:
 
-```bash pip install -r requirements.txt```
+```pip install -r requirements.txt```
 
 # Running Locally
 
 Clone the repository:
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+```git clone https://github.com/your-username/your-repo-name.git cd your-repo-name```
 
 Run the app:
 
-streamlit run app.py
+```streamlit run app.py```
 
 Open your browser and go to http://localhost:8501.
 
@@ -54,11 +53,6 @@ Streamlit Cloud:
 Push this repository to GitHub.
 
 Go to Streamlit Cloud, link your GitHub, and deploy!
-
-Heroku (Optional):
-
-heroku create your-app-name
-git push heroku master
 
 # Folder Structure
 

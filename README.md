@@ -9,7 +9,7 @@ An AI-powered web app that classifies A-level math exam questions into their res
 ## Features
 
 - Automated Topic Classification: Uses BERT for multi-label classification of math questions.
-- PDF Processing: Upload your question paper in PDF format and get a labeled version back.
+- PDF Processing: Upload your question paper in PDF format and get PDFs back which contain questions on each topic.
 - Multi-label Support: Questions belonging to multiple topics are accurately tagged.
 - User-friendly Interface: Powered by Streamlit for a seamless experience.
 

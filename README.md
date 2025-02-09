@@ -56,14 +56,14 @@ Go to Streamlit Cloud, link your GitHub, and deploy!
 
 ### Folder Structure
 
-.
+```.
 ├── app.py                  # Streamlit application
 ├── Predictor.py            # Core logic for question extraction and classification
 ├── bert_multilabel_model/  # Saved BERT model files
 ├── mlb.pkl                 # MultiLabelBinarizer for decoding topics
 ├── requirements.txt        # Dependencies
 └── README.md               # Project documentation
-
+```
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.

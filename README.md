@@ -2,47 +2,39 @@
 
 An AI-powered web app that classifies A-level math exam questions into their respective topics using BERT (Bidirectional Encoder Representations from Transformers). Simply upload a PDF of a math question paper, and the app will label each question by topic and provide a downloadable, annotated version.
 
-Demo
+## Demo
 
 Check out the live app here! 
 
-Features
+## Features
 
-Automated Topic Classification: Uses BERT for multi-label classification of math questions.
+- Automated Topic Classification: Uses BERT for multi-label classification of math questions.
+- PDF Processing: Upload your question paper in PDF format and get a labeled version back.
+- Multi-label Support: Questions belonging to multiple topics are accurately tagged.
+- User-friendly Interface: Powered by Streamlit for a seamless experience.
 
-PDF Processing: Upload your question paper in PDF format and get a labeled version back.
+## How It Works
 
-Multi-label Support: Questions belonging to multiple topics are accurately tagged.
+1. PDF Upload: Users upload a math question paper in PDF format.
+2. Text Extraction: The app extracts questions using PyMuPDF.
+3. Topic Classification: Each question is processed using a fine-tuned BERT model that predicts relevant math topics.
+4. PDF Annotation: The predicted topics are added to the original PDF, which can be downloaded.
 
-User-friendly Interface: Powered by Streamlit for a seamless experience.
+## Machine Learning Techniques Used
 
-How It Works
+- BERT for Sequence Classification: The model was fine-tuned on a custom dataset of math questions labeled with multiple topics.
+- Multi-label Classification: The app supports multi-topic detection using BCEWithLogitsLoss and threshold-based predictions.
+- Text Preprocessing: Custom preprocessing for math-specific text structures, ensuring accurate tokenization and classification.
 
-PDF Upload: Users upload a math question paper in PDF format.
+## Getting Started
 
-Text Extraction: The app extracts questions using PyMuPDF.
-
-Topic Classification: Each question is processed using a fine-tuned BERT model that predicts relevant math topics.
-
-PDF Annotation: The predicted topics are added to the original PDF, which can be downloaded.
-
-Machine Learning Techniques Used
-
-BERT for Sequence Classification: The model was fine-tuned on a custom dataset of math questions labeled with multiple topics.
-
-Multi-label Classification: The app supports multi-topic detection using BCEWithLogitsLoss and threshold-based predictions.
-
-Text Preprocessing: Custom preprocessing for math-specific text structures, ensuring accurate tokenization and classification.
-
-Getting Started
-
-Prerequisites
+# Prerequisites
 
 Ensure you have Python 3.7+ installed. Then install the required packages:
 
 pip install -r requirements.txt
 
-Running Locally
+# Running Locally
 
 Clone the repository:
 
@@ -55,7 +47,7 @@ streamlit run app.py
 
 Open your browser and go to http://localhost:8501.
 
-Deploying the App
+# Deploying the App
 
 Streamlit Cloud:
 
@@ -68,7 +60,7 @@ Heroku (Optional):
 heroku create your-app-name
 git push heroku master
 
-Folder Structure
+# Folder Structure
 
 .
 ├── app.py                  # Streamlit application
@@ -78,6 +70,6 @@ Folder Structure
 ├── requirements.txt        # Dependencies
 └── README.md               # Project documentation
 
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.

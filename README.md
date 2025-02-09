@@ -4,7 +4,7 @@ An AI-powered web app that classifies A-level math exam questions into their res
 
 ## Demo
 
-Check out the live app here! 
+(Live app to be added very soon)
 
 ## Features
 
@@ -64,6 +64,3 @@ Go to Streamlit Cloud, link your GitHub, and deploy!
 ├── requirements.txt        # Dependencies
 └── README.md               # Project documentation
 ```
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.

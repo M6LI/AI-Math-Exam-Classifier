@@ -18,7 +18,7 @@ An AI-powered web app that classifies A-level math exam questions into their res
 1. PDF Upload: Users upload a math question paper in PDF format.
 2. Text Extraction: The app extracts questions using PyMuPDF.
 3. Topic Classification: Each question is processed using a fine-tuned BERT model that predicts relevant math topics.
-4. PDF Annotation: The predicted topics are added to the original PDF, which can be downloaded.
+4. PDF Annotation: A PDF is created for each topic, containing the relevant questions from the input file(s).
 
 ## Machine Learning Techniques Used
 

@@ -28,13 +28,13 @@ Check out the live app here!
 
 ## Getting Started
 
-# Prerequisites
+### Prerequisites
 
 Ensure you have Python 3.7+ installed. Then install the required packages:
 
 ```pip install -r requirements.txt```
 
-# Running Locally
+### Running Locally
 
 Clone the repository:
 
@@ -46,7 +46,7 @@ Run the app:
 
 Open your browser and go to http://localhost:8501.
 
-# Deploying the App
+### Deploying the App
 
 Streamlit Cloud:
 
@@ -54,7 +54,7 @@ Push this repository to GitHub.
 
 Go to Streamlit Cloud, link your GitHub, and deploy!
 
-# Folder Structure
+### Folder Structure
 
 .
 ├── app.py                  # Streamlit application

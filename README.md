@@ -4,7 +4,7 @@ An AI-powered web app that classifies A-level math exam questions into their res
 
 ## Demo
 
-https://ai-math-exam-classifier-pan64xxftzaotybwymjcdr.streamlit.app/
+Coming soon!
 
 ## Features
 
